@@ -1,0 +1,744 @@
+2024-04-25T00:28:48.224Z [Modules] Modules initializing
+2024-04-25T00:28:48.224Z [Modules] Distribution: remote
+2024-04-25T00:28:48.224Z [Modules] Host updates: enabled
+2024-04-25T00:28:48.225Z [Modules] Module updates: enabled
+2024-04-25T00:28:48.225Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T00:28:48.225Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T00:28:48.225Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T00:28:48.495Z [Modules] Bootstrapping...
+2024-04-25T00:28:48.496Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-04-25T00:28:48.502Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-04-25T00:28:48.504Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-04-25T00:28:48.508Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-04-25T00:28:48.509Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-04-25T00:28:48.512Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-04-25T00:28:48.513Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-04-25T00:28:48.514Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-04-25T00:28:48.515Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-04-25T00:28:48.516Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-04-25T00:28:48.517Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-04-25T00:28:48.520Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-04-25T00:28:48.520Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-04-25T00:28:48.520Z [Modules] Checking for host updates.
+2024-04-25T00:28:48.938Z [Modules] Host is up to date.
+2024-04-25T00:28:48.939Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T00:28:48.998Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-04-25T00:28:48.998Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-04-25T00:28:48.998Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-04-25T00:28:48.998Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-04-25T00:28:48.998Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-04-25T00:28:48.999Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-04-25T00:28:48.999Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-04-25T00:28:49.000Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip
+2024-04-25T00:28:49.299Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 1%
+2024-04-25T00:28:49.328Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 2%
+2024-04-25T00:28:49.367Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 3%
+2024-04-25T00:28:49.421Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 6%
+2024-04-25T00:28:49.422Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 7%
+2024-04-25T00:28:49.425Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 9%
+2024-04-25T00:28:49.842Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 11%
+2024-04-25T00:28:49.844Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 14%
+2024-04-25T00:28:49.847Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 17%
+2024-04-25T00:28:49.848Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 18%
+2024-04-25T00:28:49.851Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 21%
+2024-04-25T00:28:49.852Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 22%
+2024-04-25T00:28:49.855Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 24%
+2024-04-25T00:28:49.876Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 25%
+2024-04-25T00:28:49.905Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 27%
+2024-04-25T00:28:49.908Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 28%
+2024-04-25T00:28:49.915Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 31%
+2024-04-25T00:28:49.917Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 32%
+2024-04-25T00:28:49.920Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 35%
+2024-04-25T00:28:49.923Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 36%
+2024-04-25T00:28:49.926Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 39%
+2024-04-25T00:28:49.931Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 42%
+2024-04-25T00:28:49.941Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 45%
+2024-04-25T00:28:49.942Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 46%
+2024-04-25T00:28:49.944Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 51%
+2024-04-25T00:28:49.946Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 53%
+2024-04-25T00:28:49.950Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 54%
+2024-04-25T00:28:49.960Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 56%
+2024-04-25T00:28:49.966Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 59%
+2024-04-25T00:28:49.968Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 62%
+2024-04-25T00:28:49.969Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 64%
+2024-04-25T00:28:49.971Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 65%
+2024-04-25T00:28:49.977Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 68%
+2024-04-25T00:28:49.978Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 69%
+2024-04-25T00:28:49.979Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 72%
+2024-04-25T00:28:49.980Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 74%
+2024-04-25T00:28:49.981Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 77%
+2024-04-25T00:28:49.982Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 78%
+2024-04-25T00:28:49.983Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 81%
+2024-04-25T00:28:49.984Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 82%
+2024-04-25T00:28:49.988Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 85%
+2024-04-25T00:28:49.989Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 86%
+2024-04-25T00:28:49.991Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 88%
+2024-04-25T00:28:50.038Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 91%
+2024-04-25T00:28:50.040Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 94%
+2024-04-25T00:28:50.052Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 95%
+2024-04-25T00:28:50.064Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 98%
+2024-04-25T00:28:50.065Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 99%
+2024-04-25T00:28:50.065Z [Modules] Streaming discord_desktop_core@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 100%
+2024-04-25T00:28:50.068Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-04-25T00:28:50.068Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip
+2024-04-25T00:28:50.325Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 3%
+2024-04-25T00:28:50.326Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 5%
+2024-04-25T00:28:50.333Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 9%
+2024-04-25T00:28:50.336Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 11%
+2024-04-25T00:28:50.337Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 15%
+2024-04-25T00:28:50.338Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 16%
+2024-04-25T00:28:50.340Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 18%
+2024-04-25T00:28:50.341Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 22%
+2024-04-25T00:28:50.344Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 23%
+2024-04-25T00:28:50.349Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 25%
+2024-04-25T00:28:50.351Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 27%
+2024-04-25T00:28:50.352Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 30%
+2024-04-25T00:28:50.354Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 32%
+2024-04-25T00:28:50.361Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 34%
+2024-04-25T00:28:50.393Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 37%
+2024-04-25T00:28:50.406Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 40%
+2024-04-25T00:28:50.407Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 43%
+2024-04-25T00:28:50.408Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 46%
+2024-04-25T00:28:50.411Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 49%
+2024-04-25T00:28:50.419Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 51%
+2024-04-25T00:28:50.420Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 52%
+2024-04-25T00:28:50.422Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 56%
+2024-04-25T00:28:50.423Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 59%
+2024-04-25T00:28:50.425Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 63%
+2024-04-25T00:28:50.428Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 65%
+2024-04-25T00:28:50.437Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 69%
+2024-04-25T00:28:50.438Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 75%
+2024-04-25T00:28:50.439Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 80%
+2024-04-25T00:28:50.441Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 83%
+2024-04-25T00:28:50.442Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 85%
+2024-04-25T00:28:50.443Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 88%
+2024-04-25T00:28:50.444Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 89%
+2024-04-25T00:28:50.446Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 94%
+2024-04-25T00:28:50.447Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 98%
+2024-04-25T00:28:50.448Z [Modules] Streaming discord_erlpack@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 100%
+2024-04-25T00:28:50.449Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-04-25T00:28:50.449Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip
+2024-04-25T00:28:51.088Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 1%
+2024-04-25T00:28:51.090Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 2%
+2024-04-25T00:28:51.091Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 3%
+2024-04-25T00:28:51.098Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 4%
+2024-04-25T00:28:51.102Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 5%
+2024-04-25T00:28:51.104Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 6%
+2024-04-25T00:28:51.106Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 7%
+2024-04-25T00:28:51.108Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 8%
+2024-04-25T00:28:51.110Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 9%
+2024-04-25T00:28:51.112Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 10%
+2024-04-25T00:28:51.114Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 11%
+2024-04-25T00:28:51.116Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 12%
+2024-04-25T00:28:51.118Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 13%
+2024-04-25T00:28:51.120Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 14%
+2024-04-25T00:28:51.122Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 15%
+2024-04-25T00:28:51.140Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 16%
+2024-04-25T00:28:51.145Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 17%
+2024-04-25T00:28:51.146Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 18%
+2024-04-25T00:28:51.166Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 19%
+2024-04-25T00:28:51.183Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 20%
+2024-04-25T00:28:51.185Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 21%
+2024-04-25T00:28:51.187Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 22%
+2024-04-25T00:28:51.189Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 23%
+2024-04-25T00:28:51.191Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 24%
+2024-04-25T00:28:51.193Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 25%
+2024-04-25T00:28:51.195Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 26%
+2024-04-25T00:28:51.197Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 27%
+2024-04-25T00:28:51.200Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 28%
+2024-04-25T00:28:51.202Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 29%
+2024-04-25T00:28:51.204Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 30%
+2024-04-25T00:28:51.206Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 31%
+2024-04-25T00:28:51.211Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 32%
+2024-04-25T00:28:51.216Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 33%
+2024-04-25T00:28:51.221Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 34%
+2024-04-25T00:28:51.228Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 35%
+2024-04-25T00:28:51.232Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 36%
+2024-04-25T00:28:51.234Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 37%
+2024-04-25T00:28:51.236Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 38%
+2024-04-25T00:28:51.247Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 39%
+2024-04-25T00:28:51.257Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 40%
+2024-04-25T00:28:51.261Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 41%
+2024-04-25T00:28:51.262Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 42%
+2024-04-25T00:28:51.272Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 43%
+2024-04-25T00:28:51.274Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 44%
+2024-04-25T00:28:51.277Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 45%
+2024-04-25T00:28:51.278Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 46%
+2024-04-25T00:28:51.282Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 47%
+2024-04-25T00:28:51.284Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 48%
+2024-04-25T00:28:51.304Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 49%
+2024-04-25T00:28:51.305Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 50%
+2024-04-25T00:28:51.307Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 51%
+2024-04-25T00:28:51.310Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 52%
+2024-04-25T00:28:51.312Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 53%
+2024-04-25T00:28:51.318Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 54%
+2024-04-25T00:28:51.320Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 55%
+2024-04-25T00:28:51.322Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 56%
+2024-04-25T00:28:51.324Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 57%
+2024-04-25T00:28:51.326Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 58%
+2024-04-25T00:28:51.329Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 59%
+2024-04-25T00:28:51.330Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 60%
+2024-04-25T00:28:51.332Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 61%
+2024-04-25T00:28:51.336Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 62%
+2024-04-25T00:28:51.345Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 63%
+2024-04-25T00:28:51.351Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 64%
+2024-04-25T00:28:51.363Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 65%
+2024-04-25T00:28:51.364Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 66%
+2024-04-25T00:28:51.367Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 67%
+2024-04-25T00:28:51.382Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 68%
+2024-04-25T00:28:51.385Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 69%
+2024-04-25T00:28:51.388Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 70%
+2024-04-25T00:28:51.395Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 71%
+2024-04-25T00:28:51.402Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 72%
+2024-04-25T00:28:51.419Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 73%
+2024-04-25T00:28:51.441Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 74%
+2024-04-25T00:28:51.443Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 75%
+2024-04-25T00:28:51.445Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 76%
+2024-04-25T00:28:51.447Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 77%
+2024-04-25T00:28:51.451Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 78%
+2024-04-25T00:28:51.453Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 79%
+2024-04-25T00:28:51.455Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 80%
+2024-04-25T00:28:51.457Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 81%
+2024-04-25T00:28:51.459Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 82%
+2024-04-25T00:28:51.461Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 83%
+2024-04-25T00:28:51.467Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 84%
+2024-04-25T00:28:51.469Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 85%
+2024-04-25T00:28:51.478Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 86%
+2024-04-25T00:28:51.480Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 87%
+2024-04-25T00:28:51.493Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 88%
+2024-04-25T00:28:51.495Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 89%
+2024-04-25T00:28:51.498Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 90%
+2024-04-25T00:28:51.499Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 91%
+2024-04-25T00:28:51.507Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 92%
+2024-04-25T00:28:51.517Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 93%
+2024-04-25T00:28:51.518Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 94%
+2024-04-25T00:28:51.523Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 95%
+2024-04-25T00:28:51.525Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 96%
+2024-04-25T00:28:51.528Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 97%
+2024-04-25T00:28:51.535Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 98%
+2024-04-25T00:28:51.537Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 99%
+2024-04-25T00:28:51.538Z [Modules] Streaming discord_spellcheck@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 100%
+2024-04-25T00:28:51.540Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-04-25T00:28:51.540Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip
+2024-04-25T00:28:51.833Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 1%
+2024-04-25T00:28:51.839Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 2%
+2024-04-25T00:28:51.848Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 4%
+2024-04-25T00:28:51.850Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 6%
+2024-04-25T00:28:51.851Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 7%
+2024-04-25T00:28:51.852Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 10%
+2024-04-25T00:28:51.856Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 13%
+2024-04-25T00:28:51.856Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 16%
+2024-04-25T00:28:51.858Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 18%
+2024-04-25T00:28:51.859Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 19%
+2024-04-25T00:28:51.860Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 21%
+2024-04-25T00:28:51.861Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 22%
+2024-04-25T00:28:51.862Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 25%
+2024-04-25T00:28:51.864Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 27%
+2024-04-25T00:28:51.864Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 28%
+2024-04-25T00:28:51.865Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 30%
+2024-04-25T00:28:51.868Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 31%
+2024-04-25T00:28:51.868Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 33%
+2024-04-25T00:28:51.870Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 35%
+2024-04-25T00:28:51.871Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 36%
+2024-04-25T00:28:51.873Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 39%
+2024-04-25T00:28:51.874Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 41%
+2024-04-25T00:28:51.877Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 43%
+2024-04-25T00:28:51.878Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 44%
+2024-04-25T00:28:51.883Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 46%
+2024-04-25T00:28:51.903Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 48%
+2024-04-25T00:28:51.904Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 50%
+2024-04-25T00:28:51.908Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 51%
+2024-04-25T00:28:51.913Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 53%
+2024-04-25T00:28:51.914Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 55%
+2024-04-25T00:28:51.918Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 56%
+2024-04-25T00:28:51.925Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 57%
+2024-04-25T00:28:51.933Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 59%
+2024-04-25T00:28:51.933Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 60%
+2024-04-25T00:28:51.934Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 63%
+2024-04-25T00:28:51.942Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 64%
+2024-04-25T00:28:51.948Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 66%
+2024-04-25T00:28:51.949Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 67%
+2024-04-25T00:28:51.950Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 69%
+2024-04-25T00:28:51.951Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 72%
+2024-04-25T00:28:51.957Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 75%
+2024-04-25T00:28:51.959Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 77%
+2024-04-25T00:28:51.961Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 79%
+2024-04-25T00:28:51.963Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 81%
+2024-04-25T00:28:51.963Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 82%
+2024-04-25T00:28:51.967Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 84%
+2024-04-25T00:28:51.969Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 86%
+2024-04-25T00:28:51.978Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 88%
+2024-04-25T00:28:51.979Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 89%
+2024-04-25T00:28:51.980Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 92%
+2024-04-25T00:28:51.981Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 94%
+2024-04-25T00:28:51.982Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 95%
+2024-04-25T00:28:51.983Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 97%
+2024-04-25T00:28:51.984Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 98%
+2024-04-25T00:28:51.984Z [Modules] Streaming discord_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 100%
+2024-04-25T00:28:51.986Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-04-25T00:28:51.986Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip
+2024-04-25T00:28:52.384Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 1%
+2024-04-25T00:28:52.401Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 2%
+2024-04-25T00:28:52.409Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 3%
+2024-04-25T00:28:52.414Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 4%
+2024-04-25T00:28:52.421Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 5%
+2024-04-25T00:28:52.429Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 6%
+2024-04-25T00:28:52.433Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 7%
+2024-04-25T00:28:52.446Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 8%
+2024-04-25T00:28:52.465Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 9%
+2024-04-25T00:28:52.476Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 10%
+2024-04-25T00:28:52.489Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 11%
+2024-04-25T00:28:52.494Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 12%
+2024-04-25T00:28:52.499Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 13%
+2024-04-25T00:28:52.506Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 14%
+2024-04-25T00:28:52.513Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 15%
+2024-04-25T00:28:52.525Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 16%
+2024-04-25T00:28:52.547Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 17%
+2024-04-25T00:28:52.560Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 18%
+2024-04-25T00:28:52.572Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 19%
+2024-04-25T00:28:52.579Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 20%
+2024-04-25T00:28:52.585Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 21%
+2024-04-25T00:28:52.589Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 22%
+2024-04-25T00:28:52.597Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 23%
+2024-04-25T00:28:52.610Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 24%
+2024-04-25T00:28:52.616Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 25%
+2024-04-25T00:28:52.628Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 26%
+2024-04-25T00:28:52.635Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 27%
+2024-04-25T00:28:52.644Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 28%
+2024-04-25T00:28:52.651Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 29%
+2024-04-25T00:28:52.657Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 30%
+2024-04-25T00:28:52.665Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 31%
+2024-04-25T00:28:52.672Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 32%
+2024-04-25T00:28:52.677Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 33%
+2024-04-25T00:28:52.692Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 34%
+2024-04-25T00:28:52.697Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 35%
+2024-04-25T00:28:52.702Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 36%
+2024-04-25T00:28:52.712Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 37%
+2024-04-25T00:28:52.717Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 38%
+2024-04-25T00:28:52.733Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 39%
+2024-04-25T00:28:52.741Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 40%
+2024-04-25T00:28:52.750Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 41%
+2024-04-25T00:28:52.758Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 42%
+2024-04-25T00:28:52.762Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 43%
+2024-04-25T00:28:52.781Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 44%
+2024-04-25T00:28:52.794Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 45%
+2024-04-25T00:28:52.803Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 46%
+2024-04-25T00:28:52.809Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 47%
+2024-04-25T00:28:52.825Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 48%
+2024-04-25T00:28:52.831Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 49%
+2024-04-25T00:28:52.875Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 50%
+2024-04-25T00:28:52.879Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 51%
+2024-04-25T00:28:52.887Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 52%
+2024-04-25T00:28:52.895Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 53%
+2024-04-25T00:28:52.898Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 54%
+2024-04-25T00:28:52.903Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 55%
+2024-04-25T00:28:52.914Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 56%
+2024-04-25T00:28:52.917Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 57%
+2024-04-25T00:28:52.930Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 58%
+2024-04-25T00:28:52.942Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 59%
+2024-04-25T00:28:52.945Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 60%
+2024-04-25T00:28:52.951Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 61%
+2024-04-25T00:28:52.962Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 62%
+2024-04-25T00:28:52.966Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 63%
+2024-04-25T00:28:52.977Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 64%
+2024-04-25T00:28:52.981Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 65%
+2024-04-25T00:28:52.995Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 66%
+2024-04-25T00:28:53.004Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 67%
+2024-04-25T00:28:53.012Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 68%
+2024-04-25T00:28:53.016Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 69%
+2024-04-25T00:28:53.021Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 70%
+2024-04-25T00:28:53.026Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 71%
+2024-04-25T00:28:53.036Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 72%
+2024-04-25T00:28:53.047Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 73%
+2024-04-25T00:28:53.063Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 74%
+2024-04-25T00:28:53.086Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 75%
+2024-04-25T00:28:53.090Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 76%
+2024-04-25T00:28:53.095Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 77%
+2024-04-25T00:28:53.107Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 78%
+2024-04-25T00:28:53.122Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 79%
+2024-04-25T00:28:53.128Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 80%
+2024-04-25T00:28:53.141Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 81%
+2024-04-25T00:28:53.148Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 82%
+2024-04-25T00:28:53.159Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 83%
+2024-04-25T00:28:53.172Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 84%
+2024-04-25T00:28:53.178Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 85%
+2024-04-25T00:28:53.203Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 86%
+2024-04-25T00:28:53.215Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 87%
+2024-04-25T00:28:53.228Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 88%
+2024-04-25T00:28:53.233Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 89%
+2024-04-25T00:28:53.243Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 90%
+2024-04-25T00:28:53.252Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 91%
+2024-04-25T00:28:53.259Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 92%
+2024-04-25T00:28:53.271Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 93%
+2024-04-25T00:28:53.283Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 94%
+2024-04-25T00:28:53.292Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 95%
+2024-04-25T00:28:53.298Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 96%
+2024-04-25T00:28:53.304Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 97%
+2024-04-25T00:28:53.324Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 98%
+2024-04-25T00:28:53.329Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 99%
+2024-04-25T00:28:53.337Z [Modules] Streaming discord_voice@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 100%
+2024-04-25T00:28:53.340Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-04-25T00:28:53.340Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip
+2024-04-25T00:28:53.599Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 1%
+2024-04-25T00:28:53.637Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 2%
+2024-04-25T00:28:53.642Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 5%
+2024-04-25T00:28:53.661Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 10%
+2024-04-25T00:28:53.662Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 11%
+2024-04-25T00:28:53.663Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 15%
+2024-04-25T00:28:53.666Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 16%
+2024-04-25T00:28:53.674Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 21%
+2024-04-25T00:28:53.675Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 22%
+2024-04-25T00:28:53.676Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 30%
+2024-04-25T00:28:53.678Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 31%
+2024-04-25T00:28:53.689Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 36%
+2024-04-25T00:28:53.690Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 39%
+2024-04-25T00:28:53.691Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 45%
+2024-04-25T00:28:53.693Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 50%
+2024-04-25T00:28:53.694Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 53%
+2024-04-25T00:28:53.696Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 61%
+2024-04-25T00:28:53.697Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 66%
+2024-04-25T00:28:53.697Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 67%
+2024-04-25T00:28:53.699Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 72%
+2024-04-25T00:28:53.699Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 75%
+2024-04-25T00:28:53.700Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 80%
+2024-04-25T00:28:53.701Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 82%
+2024-04-25T00:28:53.702Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 87%
+2024-04-25T00:28:53.703Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 90%
+2024-04-25T00:28:53.705Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 95%
+2024-04-25T00:28:53.706Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 97%
+2024-04-25T00:28:53.706Z [Modules] Streaming discord_zstd@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 100%
+2024-04-25T00:28:53.707Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-04-25T00:28:53.708Z [Modules] Installing updates...
+2024-04-25T00:28:53.708Z [Modules] Installing discord_desktop_core@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip
+2024-04-25T00:28:53.811Z [Modules] Installing discord_erlpack@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip
+2024-04-25T00:28:53.875Z [Modules] Installing discord_spellcheck@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip
+2024-04-25T00:28:54.821Z [Modules] Installing discord_utils@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_utils-1.zip
+2024-04-25T00:28:54.985Z [Modules] Installing discord_voice@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_voice-1.zip
+2024-04-25T00:28:55.682Z [Modules] Installing discord_zstd@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip
+2024-04-25T00:28:55.727Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-04-25T00:28:55.727Z [Modules] Checking for host updates.
+2024-04-25T00:28:55.944Z [Modules] Host is up to date.
+2024-04-25T00:28:55.944Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T00:28:55.949Z [Modules] No module updates available.
+2024-04-25T00:28:58.172Z [Modules] Starting to install discord_krisp...
+2024-04-25T00:28:58.172Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-04-25T00:28:58.173Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip
+2024-04-25T00:28:58.185Z [Modules] Starting to install discord_game_utils...
+2024-04-25T00:28:58.765Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 1%
+2024-04-25T00:28:58.769Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 2%
+2024-04-25T00:28:58.786Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 3%
+2024-04-25T00:28:58.787Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 4%
+2024-04-25T00:28:58.789Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 5%
+2024-04-25T00:28:58.794Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 6%
+2024-04-25T00:28:58.811Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 7%
+2024-04-25T00:28:58.817Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 8%
+2024-04-25T00:28:58.834Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 9%
+2024-04-25T00:28:58.899Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 10%
+2024-04-25T00:28:58.900Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 11%
+2024-04-25T00:28:58.901Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 13%
+2024-04-25T00:28:58.907Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 14%
+2024-04-25T00:28:58.911Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 15%
+2024-04-25T00:28:58.951Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 16%
+2024-04-25T00:28:58.989Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 17%
+2024-04-25T00:28:58.991Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 18%
+2024-04-25T00:28:58.997Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 19%
+2024-04-25T00:28:59.002Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 20%
+2024-04-25T00:28:59.015Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 21%
+2024-04-25T00:28:59.016Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 22%
+2024-04-25T00:28:59.034Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 23%
+2024-04-25T00:28:59.042Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 24%
+2024-04-25T00:28:59.062Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 25%
+2024-04-25T00:28:59.063Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 26%
+2024-04-25T00:28:59.068Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 27%
+2024-04-25T00:28:59.076Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 28%
+2024-04-25T00:28:59.083Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 29%
+2024-04-25T00:28:59.094Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 30%
+2024-04-25T00:28:59.109Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 31%
+2024-04-25T00:28:59.113Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 32%
+2024-04-25T00:28:59.127Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 33%
+2024-04-25T00:28:59.139Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 34%
+2024-04-25T00:28:59.210Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 35%
+2024-04-25T00:28:59.235Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 36%
+2024-04-25T00:28:59.236Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 37%
+2024-04-25T00:28:59.237Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 38%
+2024-04-25T00:28:59.238Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 39%
+2024-04-25T00:28:59.244Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 40%
+2024-04-25T00:28:59.252Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 41%
+2024-04-25T00:28:59.265Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 42%
+2024-04-25T00:28:59.285Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 43%
+2024-04-25T00:28:59.301Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 44%
+2024-04-25T00:28:59.310Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 45%
+2024-04-25T00:28:59.323Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 46%
+2024-04-25T00:28:59.344Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 47%
+2024-04-25T00:28:59.350Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 48%
+2024-04-25T00:28:59.363Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 49%
+2024-04-25T00:28:59.376Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 50%
+2024-04-25T00:28:59.380Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 51%
+2024-04-25T00:28:59.411Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 52%
+2024-04-25T00:28:59.412Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 53%
+2024-04-25T00:28:59.417Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 54%
+2024-04-25T00:28:59.421Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 55%
+2024-04-25T00:28:59.427Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 56%
+2024-04-25T00:28:59.431Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 57%
+2024-04-25T00:28:59.446Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 58%
+2024-04-25T00:28:59.471Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 59%
+2024-04-25T00:28:59.479Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 60%
+2024-04-25T00:28:59.491Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 61%
+2024-04-25T00:28:59.502Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 62%
+2024-04-25T00:28:59.510Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 63%
+2024-04-25T00:28:59.518Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 64%
+2024-04-25T00:28:59.524Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 65%
+2024-04-25T00:28:59.528Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 66%
+2024-04-25T00:28:59.537Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 67%
+2024-04-25T00:28:59.549Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 68%
+2024-04-25T00:28:59.567Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 69%
+2024-04-25T00:28:59.580Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 70%
+2024-04-25T00:28:59.588Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 71%
+2024-04-25T00:28:59.592Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 72%
+2024-04-25T00:28:59.594Z [Modules] Checking for host updates.
+2024-04-25T00:28:59.601Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 73%
+2024-04-25T00:28:59.611Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 74%
+2024-04-25T00:28:59.616Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 75%
+2024-04-25T00:28:59.622Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 76%
+2024-04-25T00:28:59.634Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 77%
+2024-04-25T00:28:59.649Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 78%
+2024-04-25T00:28:59.664Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 79%
+2024-04-25T00:28:59.677Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 80%
+2024-04-25T00:28:59.686Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 81%
+2024-04-25T00:28:59.693Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 82%
+2024-04-25T00:28:59.701Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 83%
+2024-04-25T00:28:59.705Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 84%
+2024-04-25T00:28:59.713Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 85%
+2024-04-25T00:28:59.728Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 86%
+2024-04-25T00:28:59.731Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 87%
+2024-04-25T00:28:59.736Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 88%
+2024-04-25T00:28:59.753Z [Modules] Starting to install discord_rpc...
+2024-04-25T00:28:59.756Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 89%
+2024-04-25T00:28:59.761Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 90%
+2024-04-25T00:28:59.766Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 91%
+2024-04-25T00:28:59.772Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 92%
+2024-04-25T00:28:59.778Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 93%
+2024-04-25T00:28:59.782Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 94%
+2024-04-25T00:28:59.789Z [Modules] Host is up to date.
+2024-04-25T00:28:59.790Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T00:28:59.798Z [Modules] No module updates available.
+2024-04-25T00:28:59.805Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 95%
+2024-04-25T00:28:59.817Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 96%
+2024-04-25T00:28:59.843Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 97%
+2024-04-25T00:28:59.847Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 98%
+2024-04-25T00:28:59.852Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 99%
+2024-04-25T00:28:59.872Z [Modules] Streaming discord_krisp@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 100%
+2024-04-25T00:28:59.874Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-04-25T00:28:59.874Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip
+2024-04-25T00:28:59.874Z [Modules] Installing discord_krisp@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip
+2024-04-25T00:29:00.191Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 3%
+2024-04-25T00:29:00.193Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 5%
+2024-04-25T00:29:00.195Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 6%
+2024-04-25T00:29:00.210Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 9%
+2024-04-25T00:29:00.217Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 21%
+2024-04-25T00:29:00.218Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 23%
+2024-04-25T00:29:00.219Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 25%
+2024-04-25T00:29:00.221Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 28%
+2024-04-25T00:29:00.222Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 30%
+2024-04-25T00:29:00.223Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 32%
+2024-04-25T00:29:00.224Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 34%
+2024-04-25T00:29:00.225Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 36%
+2024-04-25T00:29:00.229Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 42%
+2024-04-25T00:29:00.231Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 44%
+2024-04-25T00:29:00.246Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 47%
+2024-04-25T00:29:00.248Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 60%
+2024-04-25T00:29:00.249Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 61%
+2024-04-25T00:29:00.268Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 62%
+2024-04-25T00:29:00.271Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 65%
+2024-04-25T00:29:00.272Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 66%
+2024-04-25T00:29:00.273Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 69%
+2024-04-25T00:29:00.275Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 71%
+2024-04-25T00:29:00.281Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 74%
+2024-04-25T00:29:00.283Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 77%
+2024-04-25T00:29:00.288Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 80%
+2024-04-25T00:29:00.289Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 81%
+2024-04-25T00:29:00.289Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 82%
+2024-04-25T00:29:00.290Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 84%
+2024-04-25T00:29:00.292Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 87%
+2024-04-25T00:29:00.293Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 90%
+2024-04-25T00:29:00.294Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 91%
+2024-04-25T00:29:00.295Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 94%
+2024-04-25T00:29:00.296Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 95%
+2024-04-25T00:29:00.297Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 98%
+2024-04-25T00:29:00.298Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 99%
+2024-04-25T00:29:00.299Z [Modules] Streaming discord_game_utils@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 100%
+2024-04-25T00:29:00.301Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-04-25T00:29:00.301Z [Modules] Streaming discord_rpc@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_rpc-1.zip
+2024-04-25T00:29:00.553Z [Modules] Installing discord_game_utils@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip
+2024-04-25T00:29:00.568Z [Modules] Streaming discord_rpc@1 to /home/archvisions/.config/discord/0.0.51/modules/pending/discord_rpc-1.zip: 100%
+2024-04-25T00:29:00.569Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-04-25T00:29:00.642Z [Modules] Installing discord_rpc@1 from /home/archvisions/.config/discord/0.0.51/modules/pending/discord_rpc-1.zip
+2024-04-25T00:29:00.667Z [Modules] Finished module installations. [success: 3] [failure: 0]
+2024-04-25T00:30:45.152Z [Modules] Modules initializing
+2024-04-25T00:30:45.152Z [Modules] Distribution: remote
+2024-04-25T00:30:45.152Z [Modules] Host updates: enabled
+2024-04-25T00:30:45.152Z [Modules] Module updates: enabled
+2024-04-25T00:30:45.153Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T00:30:45.153Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T00:30:45.153Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T00:30:45.392Z [Modules] No updates to install
+2024-04-25T00:30:45.394Z [Modules] Checking for host updates.
+2024-04-25T00:30:45.645Z [Modules] Host is up to date.
+2024-04-25T00:30:45.646Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T00:30:45.721Z [Modules] No module updates available.
+2024-04-25T00:30:49.732Z [Modules] Checking for host updates.
+2024-04-25T00:30:49.838Z [Modules] Host is up to date.
+2024-04-25T00:30:49.838Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T00:30:49.843Z [Modules] No module updates available.
+2024-04-25T00:30:51.649Z [Modules] Checking for host updates.
+2024-04-25T00:30:51.786Z [Modules] Host is up to date.
+2024-04-25T00:30:51.786Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T00:30:51.789Z [Modules] No module updates available.
+2024-04-25T01:06:16.496Z [Modules] Modules initializing
+2024-04-25T01:06:16.497Z [Modules] Distribution: remote
+2024-04-25T01:06:16.497Z [Modules] Host updates: enabled
+2024-04-25T01:06:16.497Z [Modules] Module updates: enabled
+2024-04-25T01:06:16.497Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T01:06:16.497Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T01:06:16.497Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T01:06:16.689Z [Modules] No updates to install
+2024-04-25T01:06:16.690Z [Modules] Checking for host updates.
+2024-04-25T01:06:16.890Z [Modules] Host is up to date.
+2024-04-25T01:06:16.890Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T01:06:16.946Z [Modules] No module updates available.
+2024-04-25T01:06:18.564Z [Modules] Checking for host updates.
+2024-04-25T01:06:18.708Z [Modules] Host is up to date.
+2024-04-25T01:06:18.708Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T01:06:18.710Z [Modules] No module updates available.
+2024-04-25T01:07:20.840Z [Modules] Modules initializing
+2024-04-25T01:07:20.840Z [Modules] Distribution: remote
+2024-04-25T01:07:20.840Z [Modules] Host updates: enabled
+2024-04-25T01:07:20.840Z [Modules] Module updates: enabled
+2024-04-25T01:07:20.840Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T01:07:20.840Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T01:07:20.840Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T01:07:21.006Z [Modules] No updates to install
+2024-04-25T01:07:21.007Z [Modules] Checking for host updates.
+2024-04-25T01:07:21.227Z [Modules] Host is up to date.
+2024-04-25T01:07:21.227Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T01:07:21.300Z [Modules] No module updates available.
+2024-04-25T01:07:22.806Z [Modules] Checking for host updates.
+2024-04-25T01:07:23.027Z [Modules] Host is up to date.
+2024-04-25T01:07:23.027Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T01:07:23.029Z [Modules] No module updates available.
+2024-04-25T01:08:15.765Z [Modules] Modules initializing
+2024-04-25T01:08:15.765Z [Modules] Distribution: remote
+2024-04-25T01:08:15.765Z [Modules] Host updates: enabled
+2024-04-25T01:08:15.765Z [Modules] Module updates: enabled
+2024-04-25T01:08:15.765Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T01:08:15.766Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T01:08:15.766Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T01:08:15.915Z [Modules] No updates to install
+2024-04-25T01:08:15.916Z [Modules] Checking for host updates.
+2024-04-25T01:08:16.763Z [Modules] Host is up to date.
+2024-04-25T01:08:16.763Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T01:08:16.770Z [Modules] No module updates available.
+2024-04-25T01:08:18.558Z [Modules] Checking for host updates.
+2024-04-25T01:08:18.864Z [Modules] Host is up to date.
+2024-04-25T01:08:18.864Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T01:08:18.870Z [Modules] No module updates available.
+2024-04-25T13:53:02.079Z [Modules] Modules initializing
+2024-04-25T13:53:02.079Z [Modules] Distribution: remote
+2024-04-25T13:53:02.079Z [Modules] Host updates: enabled
+2024-04-25T13:53:02.079Z [Modules] Module updates: enabled
+2024-04-25T13:53:02.079Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T13:53:02.079Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T13:53:02.080Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T13:53:02.329Z [Modules] No updates to install
+2024-04-25T13:53:02.330Z [Modules] Checking for host updates.
+2024-04-25T13:53:02.595Z [Modules] Host is up to date.
+2024-04-25T13:53:02.596Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T13:53:02.653Z [Modules] No module updates available.
+2024-04-25T13:53:04.645Z [Modules] Checking for host updates.
+2024-04-25T13:53:04.745Z [Modules] Host is up to date.
+2024-04-25T13:53:04.745Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T13:53:04.749Z [Modules] No module updates available.
+2024-04-25T14:27:11.612Z [Modules] Modules initializing
+2024-04-25T14:27:11.612Z [Modules] Distribution: remote
+2024-04-25T14:27:11.612Z [Modules] Host updates: enabled
+2024-04-25T14:27:11.613Z [Modules] Module updates: enabled
+2024-04-25T14:27:11.616Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T14:27:11.616Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T14:27:11.616Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T14:27:11.828Z [Modules] No updates to install
+2024-04-25T14:27:11.829Z [Modules] Checking for host updates.
+2024-04-25T14:27:12.070Z [Modules] Host is up to date.
+2024-04-25T14:27:12.070Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T14:27:12.129Z [Modules] No module updates available.
+2024-04-25T14:27:14.461Z [Modules] Checking for host updates.
+2024-04-25T14:27:14.569Z [Modules] Host is up to date.
+2024-04-25T14:27:14.569Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T14:27:14.573Z [Modules] No module updates available.
+2024-04-25T14:30:18.654Z [Modules] Modules initializing
+2024-04-25T14:30:18.655Z [Modules] Distribution: remote
+2024-04-25T14:30:18.655Z [Modules] Host updates: enabled
+2024-04-25T14:30:18.655Z [Modules] Module updates: enabled
+2024-04-25T14:30:18.659Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T14:30:18.660Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T14:30:18.660Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T14:30:18.938Z [Modules] No updates to install
+2024-04-25T14:30:18.939Z [Modules] Checking for host updates.
+2024-04-25T14:30:19.175Z [Modules] Host is up to date.
+2024-04-25T14:30:19.175Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T14:30:19.237Z [Modules] No module updates available.
+2024-04-25T14:30:21.608Z [Modules] Checking for host updates.
+2024-04-25T14:30:21.715Z [Modules] Host is up to date.
+2024-04-25T14:30:21.715Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T14:30:21.719Z [Modules] No module updates available.
+2024-04-25T14:43:32.206Z [Modules] Modules initializing
+2024-04-25T14:43:32.206Z [Modules] Distribution: remote
+2024-04-25T14:43:32.206Z [Modules] Host updates: enabled
+2024-04-25T14:43:32.206Z [Modules] Module updates: enabled
+2024-04-25T14:43:32.207Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T14:43:32.207Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T14:43:32.207Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T14:43:32.434Z [Modules] No updates to install
+2024-04-25T14:43:32.435Z [Modules] Checking for host updates.
+2024-04-25T14:43:32.652Z [Modules] Host is up to date.
+2024-04-25T14:43:32.653Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T14:43:32.719Z [Modules] No module updates available.
+2024-04-25T14:43:34.932Z [Modules] Checking for host updates.
+2024-04-25T14:43:35.052Z [Modules] Host is up to date.
+2024-04-25T14:43:35.053Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T14:43:35.057Z [Modules] No module updates available.
+2024-04-25T15:43:35.161Z [Modules] Checking for host updates.
+2024-04-25T15:43:35.351Z [Modules] Host is up to date.
+2024-04-25T15:43:35.351Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T15:43:35.417Z [Modules] No module updates available.
+2024-04-25T15:53:42.258Z [Modules] Modules initializing
+2024-04-25T15:53:42.258Z [Modules] Distribution: remote
+2024-04-25T15:53:42.258Z [Modules] Host updates: enabled
+2024-04-25T15:53:42.258Z [Modules] Module updates: enabled
+2024-04-25T15:53:42.259Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T15:53:42.259Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T15:53:42.259Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T15:53:42.458Z [Modules] No updates to install
+2024-04-25T15:53:42.459Z [Modules] Checking for host updates.
+2024-04-25T15:53:42.695Z [Modules] Host is up to date.
+2024-04-25T15:53:42.695Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T15:53:42.752Z [Modules] No module updates available.
+2024-04-25T15:53:44.377Z [Modules] Checking for host updates.
+2024-04-25T15:53:44.475Z [Modules] Host is up to date.
+2024-04-25T15:53:44.475Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T15:53:44.478Z [Modules] No module updates available.
+2024-04-25T22:35:07.396Z [Modules] Modules initializing
+2024-04-25T22:35:07.396Z [Modules] Distribution: remote
+2024-04-25T22:35:07.397Z [Modules] Host updates: enabled
+2024-04-25T22:35:07.397Z [Modules] Module updates: enabled
+2024-04-25T22:35:07.397Z [Modules] Module install path: /home/archvisions/.config/discord/0.0.51/modules
+2024-04-25T22:35:07.397Z [Modules] Module installed file path: /home/archvisions/.config/discord/0.0.51/modules/installed.json
+2024-04-25T22:35:07.397Z [Modules] Module download path: /home/archvisions/.config/discord/0.0.51/modules/pending
+2024-04-25T22:35:07.600Z [Modules] No updates to install
+2024-04-25T22:35:07.601Z [Modules] Checking for host updates.
+2024-04-25T22:35:07.870Z [Modules] Host is up to date.
+2024-04-25T22:35:07.870Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T22:35:07.936Z [Modules] No module updates available.
+2024-04-25T22:35:10.722Z [Modules] Checking for host updates.
+2024-04-25T22:35:10.818Z [Modules] Host is up to date.
+2024-04-25T22:35:10.818Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-25T22:35:10.821Z [Modules] No module updates available.
