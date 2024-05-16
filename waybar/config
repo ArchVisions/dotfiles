@@ -34,7 +34,7 @@
 
     "cpu" : {
 	"format": "&#8239;{usage}%",
-    	"tooltip": false,
+    	"tooltip": true,
     },
 
     "memory": {
